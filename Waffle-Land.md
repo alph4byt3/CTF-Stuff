@@ -36,7 +36,7 @@ I then start adding more values to determine the amount of columns in the produc
 > `' ORDER BY 5`  
 
 
-Everything until this point shouldn't return any errors but the order of products change due the query. Once I hit 6, I once again get an error meaning that there are 5 columns in this table.
+Everything until this point shouldn't return any errors but the order of products change due to the query. Once I hit 6, I once again get an error meaning that there are 5 columns in this table.
 
 Knowing this, I can start building the payload.
 
