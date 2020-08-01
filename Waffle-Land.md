@@ -24,7 +24,7 @@ By using the following payload, we can initially determine if the page is vulner
 
 If the page returns no error, this is a strong indication that the site is vulnerable.
 
-I then start adding more values to determine the amount of columns in the product table  
+I then start incrementing the value to determine the amount of columns in the product table  
 
 
 > `' ORDER BY 2`  
