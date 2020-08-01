@@ -2,6 +2,8 @@
 
 ### Points: 150
 
+### Attack Type - Union based SQL Injection
+
 ### Description
 
 ![Description](https://github.com/alph4byt3/CTF-Stuff/blob/master/images/description.png)
@@ -13,8 +15,6 @@ After opening the link, I was given a simple webpage with a few products shown a
 ![Home Page](https://github.com/alph4byt3/CTF-Stuff/blob/master/images/home.png)  
 
 By placing a single ' in the search bar, I recieved an SQL Error. The error is kind enough to tell me the query used along with the table name of 'product' and the column name of 'name'
-
-I will use these names later to test for a UNION attack.
 
 ![SQL error](https://github.com/alph4byt3/CTF-Stuff/blob/master/images/sqlerror.png)
 
