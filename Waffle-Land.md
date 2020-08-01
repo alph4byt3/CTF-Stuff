@@ -52,7 +52,7 @@ This should add a bunch of products with null values, if we substitute one of th
 
 ![UNION](https://github.com/alph4byt3/CTF-Stuff/blob/master/images/union.png)
 
-With this being succesful, the next thing I tried was to dump the table names using the following...
+With this being successful, the next thing I tried was to dump the table names using the following...
 
 > `'/**/UNION/**/SELECT/**/1,table_name,null,null,5/**/FROM/**/information_schema.tables--`
 
